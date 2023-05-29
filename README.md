@@ -46,7 +46,7 @@ This script allows automatic connection to a specific Wi-Fi network and enables 
 You can customize the script by modifying the following variables:
 
 - `REMOTE_SERVER`: Specify the remote server hostname or IP address to test connectivity.
-- `ssid`: Specify the Wi-Fi network where you want WARP to be enabled.
+- `SSID`: Specify the Wi-Fi network where you want WARP to be enabled.
 
 ## Contributing
 
