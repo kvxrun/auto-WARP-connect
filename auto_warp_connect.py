@@ -34,11 +34,11 @@ try:
         if wifi_connected(SSID) and is_connected(REMOTE_SERVER):
             if 'Disconnected' in warp_status:
                 # Connect to Nittewifi and enable WARP if currently disconnected
-                print('Connected to Nittewifi! Connecting WARP...')
+                print('Connected to %s! Connecting WARP...'%format(SSID))
                 subprocess.run(['warp-cli', 'connect'])
         elif 'Connected' in warp_status:
             # Disconnect WARP if not connected to Nittewifi
-            print('Not connected to Nittewifi! Disconnecting WARP...')
+            print('Not connected to %s! Disconnecting WARP...'%format(SSID))
             subprocess.run(['warp-cli', 'disconnect'])
         time.sleep(300)
 
