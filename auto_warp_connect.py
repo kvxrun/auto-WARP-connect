@@ -2,7 +2,7 @@ import subprocess
 import time
 import socket
 
-ssid='example'
+SSID='example'
 REMOTE_SERVER = "one.one.one.one"
 
 def is_connected(hostname):
@@ -31,7 +31,7 @@ try:
         # Retrieve WARP status
         warp_status = subprocess.check_output('warp-cli status').decode('utf-8')
         
-        if wifi_connected(ssid) and is_connected(REMOTE_SERVER):
+        if wifi_connected(SSID) and is_connected(REMOTE_SERVER):
             if 'Disconnected' in warp_status:
                 # Connect to Nittewifi and enable WARP if currently disconnected
                 print('Connected to Nittewifi! Connecting WARP...')
