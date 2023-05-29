@@ -10,7 +10,7 @@ This script allows automatic connection to a specific Wi-Fi network and enables 
 
 ## Installation
 
-1. Clone the repository or download the `auto_connect.py` script.
+1. Clone the repository or download the `auto_warp_connect.py` script.
 
    ```shell
    git clone https://github.com/kvxrun/auto-WARP-connect.git
@@ -24,9 +24,9 @@ This script allows automatic connection to a specific Wi-Fi network and enables 
 
 ## Usage
 
-1. Modify the `REMOTE_SERVER` variable in the `auto_connect.py` script to specify the remote server you want to use for connectivity testing.
+1. Modify the `REMOTE_SERVER` and `SSID` variable in the `auto_warp_connect.py` script to specify the remote server and Wi-Fi you want to use for connectivity testing.
 
-2. Open a command prompt or terminal and navigate to the directory containing the `auto_connect.py` script.
+2. Open a command prompt or terminal and navigate to the directory containing the `auto_warp_connect.py` script.
 
 3. Run the script.
 
